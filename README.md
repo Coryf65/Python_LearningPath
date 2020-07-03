@@ -77,3 +77,24 @@ Can be Multi-Demensional Arrays
     - Collection of data elements, called nodes
     - Contain reference to the next node in the list
     - Hold whatever data the application needs
+
+3. Stacks and Queues
+
+    - stack: 
+    a collection that supports push and pop operations
+    the last item pushed is the first one popped
+
+    When to use
+
+        - Expression processing
+        - Backtracking: browser back button, for example
+
+    - queue
+    collection that supports adding and removing
+    FIFO (first item in is the first one out)
+
+    When to use
+
+        - Order processing
+
+        - Messaging
