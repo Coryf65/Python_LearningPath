@@ -47,13 +47,13 @@ Learning Python for fun !
 
 Used to organize data so it can be processed
 
-- Common Data Structures
+    - Common Data Structures
 
-    - Arrays
-    - Linked lists 
-    - Stacks and queues
-    - Trees
-    - Hash tables
+        - Arrays
+        - Linked lists 
+        - Stacks and queues
+        - Trees
+        - Hash tables
 
 1. Arrays :
 
