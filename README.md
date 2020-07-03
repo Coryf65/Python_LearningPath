@@ -119,5 +119,5 @@ this is called the "Call Stack"
 
 exampes
 
-[a Countdown](/Recursion/countdown.py)
-[a Math based, Power and Factorial](/Recursion/recursion.py)
+1. [a Countdown](/Recursion/countdown.py)
+2. [a Math based, Power and Factorial](/Recursion/recursion.py)
