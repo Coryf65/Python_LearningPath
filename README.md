@@ -57,7 +57,7 @@ Used to organize data so it can be processed
 
 1. Arrays :
 
-code example(/DataStructures/arrays.py)
+[code example](/DataStructures/arrays.py)
 
 a collection of elements identified by an index or key
 
@@ -72,7 +72,7 @@ Can be Multi-Demensional Arrays
 
 2. Linked lists
 
-code example(/DataStructures/Linkedlist.py)
+[code example](/DataStructures/Linkedlist.py)
 
     - Collection of data elements, called nodes
     - Contain reference to the next node in the list
