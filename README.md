@@ -55,7 +55,9 @@ Used to organize data so it can be processed
     - Trees
     - Hash tables
 
-- Arrays :
+1. Arrays :
+
+code example(/DataStructures/arrays.py)
 
 a collection of elements identified by an index or key
 
@@ -67,3 +69,11 @@ Can be Multi-Demensional Arrays
     - Insert or delete item at beginning: O(n)
     - Insert or delete item at middle: O(n)
     - Insert or delete item at end: O(1)
+
+2. Linked lists
+
+code example(/DataStructures/Linkedlist.py)
+
+    - Collection of data elements, called nodes
+    - Contain reference to the next node in the list
+    - Hold whatever data the application needs
