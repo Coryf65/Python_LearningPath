@@ -98,3 +98,12 @@ Can be Multi-Demensional Arrays
         - Order processing
 
         - Messaging
+
+4. Hash Tables (sometimes called Dictionaries in other languages)
+
+an associative array
+
+- key to value mappings and are unique
+- hash tables are typically fast
+- for small datasets, arrays are usually more effecient
+- Hash tables don't order entries in a predictable way
