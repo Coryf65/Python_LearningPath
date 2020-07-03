@@ -101,9 +101,23 @@ Can be Multi-Demensional Arrays
 
 4. Hash Tables (sometimes called Dictionaries in other languages)
 
+[code example](/DataStructures/hashtable.py)
 an associative array
 
 - key to value mappings and are unique
 - hash tables are typically fast
 - for small datasets, arrays are usually more effecient
 - Hash tables don't order entries in a predictable way
+
+## Recursion
+
+when a function calls itself
+
+these need to have a breaking condition. This prevents am infinite loop and eventual crashes
+Each time the function is called, the old arguments are saved
+this is called the "Call Stack"
+
+exampes
+
+[a Countdown](/Recursion/countdown.py)
+[a Math based, Power and Factorial](/Recursion/recursion.py)
