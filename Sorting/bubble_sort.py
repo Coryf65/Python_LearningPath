@@ -1,0 +1,20 @@
+# an example Bubble Sorting Algorithm
+
+def bubbleSort(dataset):
+    # start with the array length and decrement each time
+    for i in range(len(dataset) - 1, 0, -1):
+        for j in range(i):
+            if dataset[j] > dataset[j+1]:
+                temp = dataset[j]
+                dataset[j] = dataset[j+1]
+                dataset[j+1] = temp
+
+        print("Current state: ", dataset)
+
+def main():
+    list1 = [6, 20, 10, 19, 56, 21, 87, 41, 8, 53, 2]
+    bubbleSort(list1)
+    print("Result: ", list1)
+
+if __name__ == "__main__":
+    main()

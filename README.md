@@ -121,3 +121,43 @@ exampes
 
 1. [a Countdown](/Recursion/countdown.py)
 2. [a Math based, Power and Factorial](/Recursion/recursion.py)
+
+## Sorting Data
+
+most modern languages have sorting built in
+
+- the bubble sort - good for learning
+- the merge sort
+- the quick sort
+
+1. The Bubble Sort
+
+- very simple to understand and implement
+- Performance: O(n^2)
+    for loops inside of for loops are usually n^2
+- Other sorting algorithms are generally much better
+- Not considered to be a practical solution
+- Generally used for understanding the concepts
+
+```python
+# an example Bubble Sorting Algorithm
+
+def bubbleSort(dataset):
+    # start with the array length and decrement each time
+    for i in range(len(dataset) - 1, 0, -1):
+        for j in range(i):
+            if dataset[j] > dataset[j+1]:
+                temp = dataset[j]
+                dataset[j] = dataset[j+1]
+                dataset[j+1] = temp
+
+        print("Current state: ", dataset)
+
+def main():
+    list1 = [6, 20, 10, 19, 56, 21, 87, 41, 8, 53, 2]
+    bubbleSort(list1)
+    print("Result: ", list1)
+
+if __name__ == "__main__":
+    main()
+```
