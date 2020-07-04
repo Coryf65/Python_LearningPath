@@ -161,3 +161,12 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+2. Merge Sort
+
+- a Divide and Concuer algorithm
+- breaks a dataset into individual pieces and merges them
+- Uses recursion to operate on datasets
+- Performs well on large sets of data
+- Log-Linear, Performance of O(n log n) time complexity
+
