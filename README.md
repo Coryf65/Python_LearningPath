@@ -185,3 +185,23 @@ Pivot point selection
 - Generally performs better than the merge sort, O(n log n)
 - Operates in place on the data
 - Worst case is O(n2) when data is mostly sorted already
+
+## Searching
+
+### Unsorted Searching
+
+[Unsorted Search Example](/Sorting/unordered_searching.py)
+
+### Sorted Searching
+
+[Sorted Search Example](/Sorting/sorted_searching.py)
+
+can use a binary search
+this is faster than a unsorted search
+log arithmic time scale
+
+### Checking if a list is Sorted
+
+[Is_Sorted Example](/Sorting/Is_sorted_checking.py)
+
+linear time complexity
