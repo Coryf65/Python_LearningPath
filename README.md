@@ -164,9 +164,24 @@ if __name__ == "__main__":
 
 2. Merge Sort
 
+[a Merge Sort Example](/Sorting/merge_sort.py)
+
+parts data in half and half then sorts either side then merge
+
 - a Divide and Concuer algorithm
 - breaks a dataset into individual pieces and merges them
 - Uses recursion to operate on datasets
 - Performs well on large sets of data
 - Log-Linear, Performance of O(n log n) time complexity
 
+3. The Quicksort
+
+[a Quick Sort Example](/Sorting/quick_sort.py)
+
+Pivot point selection
+
+- Divide and conquer alogrithm, like the merge sort
+- Also uses recursion to perform sorting
+- Generally performs better than the merge sort, O(n log n)
+- Operates in place on the data
+- Worst case is O(n2) when data is mostly sorted already
