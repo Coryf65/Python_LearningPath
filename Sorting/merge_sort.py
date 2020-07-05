@@ -34,8 +34,8 @@ def mergesort(dataset):
             k += 1
 
         # TODO: if the right array still has values, add them
-        while j < len(left_array):
-            dataset[k] = left_array[j]
+        while j < len(right_array):
+            dataset[k] = right_array[j]
             j += 1
             k += 1
 
