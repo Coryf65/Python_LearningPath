@@ -130,7 +130,7 @@ most modern languages have sorting built in
 - the merge sort
 - the quick sort
 
-1. The Bubble Sort
+### The Bubble Sort
 
 - very simple to understand and implement
 - Performance: O(n^2)
@@ -162,7 +162,7 @@ if __name__ == "__main__":
     main()
 ```
 
-2. Merge Sort
+### Merge Sort
 
 [a Merge Sort Example](/Sorting/merge_sort.py)
 
@@ -174,7 +174,7 @@ parts data in half and half then sorts either side then merge
 - Performs well on large sets of data
 - Log-Linear, Performance of O(n log n) time complexity
 
-3. The Quicksort
+### The Quicksort
 
 [a Quick Sort Example](/Sorting/quick_sort.py)
 
