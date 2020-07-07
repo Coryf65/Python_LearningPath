@@ -2,6 +2,8 @@
 
 Learning Python for fun !
 
+More Resources about Python [Python Docs](https://www.python.org/doc/)
+
 ## Algorithm Overview
 
 - Complexity 
