@@ -17,7 +17,7 @@ from Learning Path Becoming a Python Developer [here](https://www.linkedin.com/l
 
 ## Course 4, Python Essential Training - by Bill Weinman
 - [my files]()
-- [Course](https://www.linkedin.com/learning/python-essential-training-2)
+- [Course](https://www.linkedin.com/learning/python-essential-training-2/)
 
 ## Course 5, Programming Foundations: Real-World Examples - by Barron Stone
 - []()
