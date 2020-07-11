@@ -12,11 +12,11 @@ from Learning Path Becoming a Python Developer [here](https://www.linkedin.com/l
 - [Course](https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3/)
 
 ## Course 3, Learning Python - by Joe Marini
-- [Course 3 files](https://github.com/Coryf65/Python_LearningPath/tree/master/3%20LearningPython)
+- [Course 3 files](https://github.com/Coryf65/Python_Learning)
 - [Course](https://www.linkedin.com/learning/learning-python-2/)
 
 ## Course 4, Python Essential Training - by Bill Weinman
-- [my files]()
+- [my files](https://github.com/Coryf65/Python_EssentialTraining)
 - [Course](https://www.linkedin.com/learning/python-essential-training-2/)
 
 ## Course 5, Programming Foundations: Real-World Examples - by Barron Stone
