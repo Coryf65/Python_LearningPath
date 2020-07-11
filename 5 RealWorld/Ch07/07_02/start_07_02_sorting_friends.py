@@ -20,3 +20,17 @@ munchkins = set(['Steve', 'Jackson', 'Frank', 'Bill',
 # set of Olivia's friends
 olivia = set(['Jim', 'Amanda', 'Verne', 'Nestor'])
 
+# choose just the friends who live nearby
+local = friends.intersection(zipcode)
+print('I have {} local friends:'.format(len(local)))
+print(local)
+
+# remove the Munchkin players
+invite = local.difference(munchkins)
+print('I have {} friends to invite:'.format(len(invite)))
+print(invite)
+
+# revise the friends to invite set
+invite = invite.symmetric_difference(olivia)
+print('My revise set has {} friends:'.format(len(invite)))
+print(invite)

@@ -20,7 +20,7 @@ class jeans:
 # create and examine a pair of jeans
 my_jeans = jeans(31,32,'blue')
 print(type(my_jeans))
-print(dir(my_jeans))
+print(dir(my_jeans)) # displays all Attributes including the inherited ones
 
 # don and remove the jeans
 my_jeans.put_on()

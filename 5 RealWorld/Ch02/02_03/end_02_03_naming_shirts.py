@@ -13,7 +13,7 @@ class shirt:
 
 # create one shirt with two names
 red = shirt()
-crimson = red
+crimson = red # these are now the same object
 
 # examine the red/crimson shirt
 print(id(red))
@@ -27,7 +27,7 @@ print(red.clean)
 print(crimson.clean)
 
 # check that red and crimson are the same shirt
-print(red is crimson)
+print(red is crimson) # is, checks the Object ID to see if they are the same object
 
 # create a second shirt to be named crimson
 crimson = shirt()
