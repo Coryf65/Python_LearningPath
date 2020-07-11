@@ -4,7 +4,7 @@ Learning Python for fun !
 from Learning Path Becoming a Python Developer [here](https://www.linkedin.com/learning/paths/become-a-python-developer)
 
 ## Course 1, Programming Foundations: Algorithms - by Joe Marini
-- [my files](/1 Algorithms)
+- [Course 1 files](https://github.com/Coryf65/Python_LearningPath/tree/master/1%20Algorithms)
 - [Course](https://www.linkedin.com/learning/programming-foundations-algorithms/)
 
 ## Course 4, Python Essential Training - by Bill Weinman
