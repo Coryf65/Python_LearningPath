@@ -11,9 +11,9 @@ dishwasher = ['plate','bowl','cup','knife','fork',
 for dish in list(dishwasher):
 
     # check space left in cabinet
-    if not random.randint(0,19):
+    if not random.randint(0,19): # 1 in 20 chance that it is full
         print('Out of space!')
-        break
+        break # exits current scope, the for loop
     else:
         print('Putting {} in the cabinet'.format(dish))
         dishwasher.remove(dish)

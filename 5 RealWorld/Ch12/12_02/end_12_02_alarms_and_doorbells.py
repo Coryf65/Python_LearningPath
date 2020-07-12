@@ -3,6 +3,10 @@
 import tkinter
 import time
 
+# tkinter can only handle one event at a time,
+# answering the door and right away call the phone 
+# it will process them as FIFO
+
 # handler for timer event
 def alarm():
     print('Calling the Pizza Company.')

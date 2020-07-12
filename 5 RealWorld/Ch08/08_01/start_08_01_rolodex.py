@@ -10,3 +10,6 @@ rolodex = {'Aaron'  : 5556069,
            'Mom'    : 5552603,
            'Olivia' : 5556397,
            'Verne'  : 5555309}
+
+
+print(hash('Aaron'))

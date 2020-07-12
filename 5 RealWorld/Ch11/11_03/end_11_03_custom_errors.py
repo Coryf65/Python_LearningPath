@@ -9,7 +9,7 @@ class ElectricalError(Exception):
     def __str__(self):
         return "The {} is {}!".format(self.device, self.problem)
 
-
+# you can create your own Errors, inherit Exception Class
 class PlumbingError(Exception):
     
     def __init__(self, device, problem):

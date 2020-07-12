@@ -10,3 +10,14 @@ rolodex = {'Aaron'  : 5556069,
            'Mom'    : 5552603,
            'Olivia' : 5556397,
            'Verne'  : 5555309}
+
+
+# you cannot have multiple KEYS in a Dictionary,
+# BUT you can have multiple values
+
+def caller_id(lookup_number):
+    for name, num in rolodex.items():
+        if num == lookup_number:
+            return name
+
+print(caller_id(5555547))
