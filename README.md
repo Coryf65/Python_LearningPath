@@ -23,4 +23,8 @@ from Learning Path Becoming a Python Developer [here](https://www.linkedin.com/l
 - [my files](https://github.com/Coryf65/Python_LearningPath/tree/master/4%20RealWorld)
 - [Course](https://www.linkedin.com/learning/programming-foundations-real-world-examples/)
 
+## Course 6, Learning the Python 3 Standard Library - by Kathryn Hodge
+- [my files](https://github.com/Coryf65/Python_LearningPath/tree/master/6%20TheStandardLibrary)
+- [Course](https://www.linkedin.com/learning/learning-the-python-3-standard-library/)
+
 More Resources about Python [Python Docs](https://www.python.org/doc/)
