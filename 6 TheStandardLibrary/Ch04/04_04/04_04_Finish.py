@@ -6,6 +6,7 @@ run = input("Start? >")
 
 seconds = 0
 
+# creating a timer, Starting at 0 and counting until 10
 if run == "yes":
     while seconds != 10:
         print(">", seconds)

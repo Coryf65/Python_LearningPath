@@ -3,6 +3,8 @@ from datetime import datetime
 
 now = datetime.now()
 
+# Ways of abbreviating the date and time
+# similiar to String Formatting
 print(now.strftime("%a %A %d"))
 
 print(now.strftime("%b %B %m"))

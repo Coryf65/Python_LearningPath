@@ -1,18 +1,19 @@
 # Datetime Module Part I
 from datetime import datetime
 
+# we can get lots of details about the time
 now = datetime.now()
 
-print(now.date())
+print('Current Date:', now.date())
 
-print(now.year)
+print('Current Year:', now.year)
 
-print(now.month)
+print('Current Month:', now.month)
 
-print(now.hour)
+print('Current Hour:', now.hour)
 
-print(now.minute)
+print('Current Minutes:', now.minute)
 
-print(now.second)
+print('Current Seconds:', now.second)
 
-print(now.time())
+print('Current Time:', now.time()) # a method that combines many properties
