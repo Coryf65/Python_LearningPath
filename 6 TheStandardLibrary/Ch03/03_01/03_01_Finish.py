@@ -1,11 +1,12 @@
 # Command Line Arguments
 import sys
 
-# Print Arguments
+# Print Number of Arguments
 print("Number of arguments: ", len(sys.argv), ' arguments.')
 print("Arguments ", sys.argv)
 
-# Remove Arguments
+# Remove Arguments, getting rid of the file pathing argument
+print('Removing First Argument...')
 sys.argv.remove(sys.argv[0])
 
 print("Arguments", sys.argv)
@@ -15,9 +16,9 @@ arguments = sys.argv
 sum = 0
 for arg in arguments:
     try:
-        number = int(arg)
+        number = int(arg) # Casting into an number
         sum = sum + number
     except Exception:
-        print("Bad input")
+        print("Bad input") # it is NaN so we throw an error
 
 print(sum)

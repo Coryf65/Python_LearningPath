@@ -9,6 +9,7 @@ for p in itertools.permutations(election):
 for p1 in itertools.permutations(election.values()):
     print(p1)
 
+# this will create different combinations without repeating !
 # Combinations: Order does not matter - no copies with same inputs
 colorsForPainting = ["Red", "Blue", "Purple", "Orange", "Yellow", "Pink"]
 for c in itertools.combinations(colorsForPainting, 3):
