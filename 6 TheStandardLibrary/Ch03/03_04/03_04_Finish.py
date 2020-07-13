@@ -1,7 +1,7 @@
 # Files and File Writing
 
 # setting my file and pathing
-my_path = 'c:/Users/Cory/Documents/_Code/Python_LearningPath/6 TheStandardLibrary/Ch03/03_03/'
+my_path = 'c:/Users/Cory/Documents/_Code/Python_LearningPath/6 TheStandardLibrary/Ch03/03_04/'
 test_file = 'scores.txt'
 
 # Open a file
