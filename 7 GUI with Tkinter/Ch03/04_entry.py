@@ -7,7 +7,9 @@ from tkinter import ttk
     
 root = Tk()
 
-entry = ttk.Entry(root, width = 30)
+# entry into a text box, a single input
+
+entry = ttk.Entry(root, width = 30) # width # of chars size in gui
 entry.pack()
 
 entry.get()

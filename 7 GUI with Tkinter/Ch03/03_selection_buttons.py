@@ -7,18 +7,20 @@ from tkinter import ttk
     
 root = Tk()
 
-checkbutton = ttk.Checkbutton(root, text = 'SPAM?')
+checkbutton = ttk.Checkbutton(root, text = 'SPAM?') # check box
 checkbutton.pack()
 
 spam = StringVar()
 spam.set('SPAM!')
-print(spam.get())
-
+print(spam.get()) # see what is stored in the var
+# setting value of selected and unselected
 checkbutton.config(variable = spam, onvalue = 'SPAM Please!',
 		   offvalue = 'Boo SPAM!')
 print(spam.get())
 
 breakfast = StringVar()
+
+# Radio buttons
 ttk.Radiobutton(root, text = 'SPAM', variable = breakfast,
 		value = 'SPAM').pack()
 ttk.Radiobutton(root, text = 'Eggs', variable = breakfast,
